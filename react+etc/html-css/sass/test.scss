@@ -1,0 +1,91 @@
+@use 'reset';
+
+$main-color: #2a4cb2;
+$sub-color: #eeeeee;
+$fs-basic: 20px;
+
+%btn {
+    width : 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+.btn-green {
+    @extend %btn;
+    color: green;
+}
+
+.btn-red {
+    @extend %btn;
+    color: red;
+}
+
+.btn-blue {
+    @extend %btn;
+    color: blue;
+}
+
+
+.background {
+    background-color: $main-color;
+    font-size: $fs-basic - 2px;
+}
+
+.box {
+    color: $main-color;
+    font-size: $fs-basic + 2px;
+}
+
+.main-bg {
+    h4 {
+        font-size: 16px;
+    }
+    button {
+        color: red;
+    }
+}
+
+%box{
+    width: 200px;
+    height: 200px; 
+    padding: 20px;
+}
+
+.box-violet {
+    div {
+        @extend %box;
+        background-color: blueviolet;
+    }
+}
+
+.box-pink {
+    div {
+        @extend %box;
+        background-color: pink;
+    }
+}
+
+.box-magenta {
+    div {
+        @extend %box;
+        background-color: magenta;
+    }
+}
+
+@mixin text($size) {
+    font-size: $size;
+    letter-spacing: -1px;
+}
+
+h2 {
+    @include text(40px)
+}
+
+h3 {
+    @include text(30px)
+}
+
+h4 {
+    @include text(20px)
+}
+

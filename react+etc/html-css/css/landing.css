@@ -1,0 +1,276 @@
+
+.font-s {
+    font-size: 0.85em;    
+}
+
+.font-m {
+    font-size: 1em;
+}
+
+.font-l {
+    font-size: 1.2em;
+}
+
+.font-xl {
+    font-size: 2em;
+}
+
+.mt-5 {
+    margin-top : 5px;
+}
+
+.btn-black {
+    padding: 10px 20px;
+    color: white;
+    background: #444345;
+    border: 0px solid #444345;
+    border-radius: 5px;
+}
+
+.main-top {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(#4997DD, #4d61c0);
+    overflow: hidden;
+}
+
+.main-text {
+    width : 50%;
+    height: 100%;
+    padding: 8%;
+    color: white;
+}
+
+.main-img {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.main-img img {
+    position: absolute;
+    bottom: 0%;
+    max-width: 100%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+}
+
+
+.main-f1 {
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.main-f2 {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: white;
+    background: #4d61c0;
+}
+
+.main-f3 {
+    width: 100%;
+    height: 600px;
+    background: white;
+    color: black;
+    margin-top: 3%;
+}
+
+.iconbox-container {
+    display: flex;
+    flex-direction : row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.iconbox {
+    margin: 1px 1.5%;
+    text-align: center;
+}
+
+.iconbox p {
+    margin: 0px 0px;
+}
+
+.iconbox i {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 10px;
+    color: #4d61c0;
+}
+
+.icon-bg {
+    width: 80px;
+    height: 80px;
+    margin: 10px 20px;
+    background: white;
+    border: 0px solid white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.imgbox-container {
+    width: 90%;
+    display: flex;
+    flex-direction : row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+    padding-top: 0;
+    margin: 0;
+}
+
+.imgbox {
+    position: relative;
+    width: 40%;
+    overflow: hidden;
+}
+
+.imgbox img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    z-index: 1;
+    transition: all 0.7s;
+}
+
+.img-text {
+    position: absolute;
+    text-align: left;
+    width: 100;
+    height: 100%;
+    color: white;
+    padding: 10%;
+    z-index: 2;
+}
+
+.imgbox:hover> .img-overlay {
+    box-sizing: border-box;
+    background: rgb(0, 0, 0, .5);
+    border: 15px solid white;
+}
+
+@media screen and (max-width: 1200px) {
+    /* 태블릿 사이즈 */
+    .font-s {
+        font-size: 0.7em;    
+    }
+    .font-m {
+        font-size: 0.85em;
+    }
+    .font-l {
+        font-size: 1.15em;
+    }
+    .font-xl {
+        font-size: 1.8em;
+    }
+    .mt-5 {
+        margin-top : 3px;
+    }
+    .main-img {
+        width: 35%;
+    }
+    .main-f2 {
+        height: 800px;
+    }
+    .iconbox-container {
+        flex-wrap: wrap;
+    }
+    .iconbox {
+        width: 35%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* 스마트폰 사이즈 */
+    .font-s {
+        font-size: 0.5em;    
+    }
+    .font-m {
+        font-size: 0.65em;
+    }
+    .font-l {
+        font-size: 0.9em;
+    }
+    .font-xl {
+        font-size: 1.3em;
+    }
+    .mt-5 {
+        margin-top : 1.8px;
+    }
+    .main-top {
+        height: 300px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .main-text {
+        width: 100%;
+        height: 30%;
+    }
+    .main-img {
+        width: 100%;
+        height: 70%;
+    }
+    .main-img img {
+        magin: 0;
+        padding: 0;
+        bottom: 0%;
+        left: 35%;
+        right: 35%;
+    }
+    .iconbox-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+    }
+    .iconbox {
+        width: 35%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .icon-bg {
+        position: relative;
+        width: 55px;
+        height: 55px;
+        box-sizing: border-box;
+        margin: 8px 0px;
+    }
+    .iconbox i {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 15px;
+        font-size: 25px;
+        padding: 0px;
+    }
+    .imgbox-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgbox {
+        width: 80%;
+    }
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "792086831767",
+    "project_id": "hanz8m-7b16b",
+    "storage_bucket": "hanz8m-7b16b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792086831767:android:692b8db992de57642ebfd2",
+        "android_client_info": {
+          "package_name": "com.hanz8m"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792086831767-4np6sfl7hjp8rp0bn9ch7naknmcpp72f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hanz8m",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "792086831767-vkpd00mptkeachkkqcbel6ojp216lj90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFQY9p5r4RGR4aDRpc3vHI_ARQjO6b16c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792086831767-dev3aes752pvjku87t2bicbeo378nm1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

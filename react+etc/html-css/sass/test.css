@@ -1,0 +1,67 @@
+.btn-blue, .btn-red, .btn-green {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn-green {
+  color: green;
+}
+
+.btn-red {
+  color: red;
+}
+
+.btn-blue {
+  color: blue;
+}
+
+.background {
+  background-color: #2a4cb2;
+  font-size: 18px;
+}
+
+.box {
+  color: #2a4cb2;
+  font-size: 22px;
+}
+
+.main-bg h4 {
+  font-size: 16px;
+}
+.main-bg button {
+  color: red;
+}
+
+.box-magenta div, .box-pink div, .box-violet div {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.box-violet div {
+  background-color: blueviolet;
+}
+
+.box-pink div {
+  background-color: pink;
+}
+
+.box-magenta div {
+  background-color: magenta;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-size: 30px;
+  letter-spacing: -1px;
+}
+
+h4 {
+  font-size: 20px;
+  letter-spacing: -1px;
+}/*# sourceMappingURL=test.css.map */

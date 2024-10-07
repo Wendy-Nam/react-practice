@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@800&family=Manrope:wght@200;300&family=Raleway&display=swap');
+td, th {
+	border-bottom: 2px solid #b4cbd3;
+	padding: 15px;
+}
+
+img {
+	margin : 1%;
+}
+
+body {
+	margin: 0;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.cart-background {
+	background: #b4cbd3;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 95%;
+	height: 450px;
+	margin : auto;
+	margin-top: 5%;
+	position: relative;
+}
+
+.cart-title p {
+	position: absolute;
+	top: 5%;
+	left: 8%;
+	color: #27496f;
+    font-size: 1.8em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cart-table-background {
+	position : absolute;
+	width: 80%;
+	height: 60%;
+	top: 25%;
+	margin: auto;
+	left: 8%;
+}
+
+.cart-table {
+	background : white;
+	border-radius: 10px;
+	width: 100%;
+	margin: auto;
+}
+
+.cart-table p {
+	font-size: 0.8em;
+}
+
+.cart-table thead {
+	text-align : center;
+	font-family: 'Epilogue', sans-serif;
+	height:  40px;
+	color : #b4cbd3;
+}
+
+.cart-table tbody {
+	margin : 5% 10%;
+}
+
+.cart-table td:nth-child(1) {
+	/* product img cell */
+	width: 110px;
+}
+
+.cart-table td:nth-child(1) img {
+	/* product img cell */
+	max-height: 50px;
+	height: auto;
+}
+
+.cart-table td:nth-child(2) {
+	/* item - brand logo & name */
+	text-align: left;
+}
+
+.cart-table td:nth-child(2) img {
+	/* item - brand logo */
+	max-height: 8px;
+}
+
+
+.cart-table td:nth-child(3) {
+	/* amount */
+	text-align: right;
+}
+
+.cart-table td:nth-child(4), 
+.cart-table td:nth-child(5) {
+	/* price, total */
+	text-align: center;
+}
+
+.purchase-btn {
+	position: absolute;
+	bottom: 10%;
+	right: 2.5%;
+	font-size: 20px;
+	background: khaki;
+	color: gray;
+	border: 1.5px solid khaki;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px gray;
+	cursor: pointer;
+}
+
+.purchase-btn:hover {
+	background: yellow;
+}
+
+.purchase-btn:active {
+	background: orange;
+	border: 1px solid black;
+}
+
+.input-test:focus {
+	border-bottom: 3px solid red;
+}
+
+.custum-link {
+	text-decoration: none;
+}
+
+.custum-link:link {
+	color: aqua;
+}
+
+.custum-link:visited {
+	color: black;
+}

@@ -1,0 +1,268 @@
+div, input, text {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+}
+
+.flex-container {
+	display: flex;
+	width: 100%;
+	height: 50px;
+	/* 나중에 반응형 웹 디자인할 때도 유용 : 모바일에서는 row를 column 방향 배치로 바꾼다던가...*/
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	z-index: 5;
+}
+
+.flex-item {
+	height: 100%;
+	padding : 5px;
+	padding-left : 20px;
+	background-color: pink;
+	background-size: cover;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+}
+
+.main-background {
+	width: 100%;
+	height: 500px;
+	background-image: url(../shoes.jpeg);
+	background-size: cover;
+	/* cover: 니가 알아서 꽉 채워라, contain: 배경이 안짤리게 꽉 채워라 */
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: brightness(90%);
+	/* ⬆️ 안에 글씨 있으면 글씨에도 필터 입혀짐 */
+	padding: 1px;
+	margin: 0;
+	position: relative;
+}
+
+.main-title {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	
+}
+
+.main-paragraph {
+	color: white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-button {
+	position: absolute;
+	margin:auto;
+	top: 250px;
+	left: 0;
+	right: 0;
+	width: 150px;
+}
+
+.main-textbox {
+	position: absolute;
+	top: 60%;
+	left: 20%;
+	right: 20%;
+	z-index: 1;
+	background: rgb(255, 252, 247);
+	padding: 30px;
+	margin: auto;
+	text-align: center;
+	max-width: 800px;
+	width: auto;
+}
+
+.main-textbox h3 {
+	font-size: 20px;
+}
+
+.main-form-background {
+	width: 100%;
+	height: 800px;
+	background-size: cover;
+	background-color: rgba(33, 33, 35, 0.907);
+	position: relative;
+	padding : 10% 20%;
+}
+
+.main-form-inputs {
+	width: 50%;
+	max-width: 800px;
+	height: 70%;
+	margin: auto;
+	position: absolute;
+	top: 15%;
+	left: 15%;
+	right: 15%;
+	background-color: white;
+	padding: 5% 5%;
+}
+
+.main-form-inputs h {
+	font-size: "40px";
+}
+
+.main-form-inputs p {
+	font-size: "15px";
+	margin : 2% 0%;
+	color:rgba(33, 33, 35, 0.907)
+}
+
+.name {
+	display: inline-block;
+	width: 45%;
+}∂
+
+input[type="text"] {
+	border: 1px solid rgb(189, 189, 189);
+	border-radius: 4px;
+	margin: 1% 0%;∂∂
+	padding: 2% 3%;
+	margin-bottom: 5%;
+}
+
+input[type="text"]::placeholder {
+	color: rgb(189, 189, 189);
+	font-size: 13px;
+}
+
+#email {
+	width: 80%;
+	height: auto;
+}
+
+.name input{
+	width: 75%;
+	height: 10%;
+	font-size: 15px;
+}
+
+#message {
+	width: 80%;
+	height: 100%;
+}
+
+.yellow-btn {
+	position: relative;
+	color: white;
+	width: 22%;
+	height: 8%;
+	bottom : 2%;
+	left: 60%;
+	background: rgb(247, 207, 61);
+	border: 0px;
+    border-radius: 4px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.yellow-btn:hover{
+	background: rgb(340, 170, 50);
+}
+
+
+.button-56 {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+progress {
+	margin: 5% 15%;
+	width: 70%;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: white;
+	color: red;
+}
+
+progress::-webkit-progress-bar {
+	background-color: #eee;
+	border-raduis: 2px;
+}
+
+progress::-webkit-progress-value {
+	background: linear-gradient(#e66465, #9198e5);
+	border-raduis: 2px;
+}
+
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width : 1300px) {
+	.main-title {
+		font-size: 25px;
+	}
+	p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width : 900px) {
+	.main-title {
+		font-size: 20px;
+	}
+	p {
+		font-size: 12px;
+	}
+}

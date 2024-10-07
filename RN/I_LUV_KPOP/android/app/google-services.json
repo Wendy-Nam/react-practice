@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "134337179619",
+    "project_id": "i-luv-kpop",
+    "storage_bucket": "i-luv-kpop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134337179619:android:33f719124e00d4e530fad6",
+        "android_client_info": {
+          "package_name": "com.i_luv_kpop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134337179619-4f78838605ljorhub37r0thapncvk70h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.i_luv_kpop",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "134337179619-j01d6s3l5it4a9jlepnl5dbdfctn2bnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD41y-WpVXGNFZ6mj1kwnlSaKL52cDQsoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134337179619-j01d6s3l5it4a9jlepnl5dbdfctn2bnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

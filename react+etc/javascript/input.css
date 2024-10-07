@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply p-4;
+}
+
+.my-nav {
+    @apply navbar-center bg-base-300;
+}
+
+.filter-row-top {
+    @apply mt-4 grid grid-cols-6 gap-2;
+}
+
+.gallery-cards {
+    @apply card card-compact w-40 bg-base-100 shadow-xl;
+}
+
+.gallery-layout {
+    @apply grid grid-cols-4 gap-4 m-2 mt-4;
+}
+
